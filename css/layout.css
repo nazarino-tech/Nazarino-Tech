@@ -1,0 +1,42 @@
+/* Explain: Layout utilities for airy one-page studio sections, updated for dark luxury aesthetic. */
+.section-pad {
+    padding-top: clamp(5.5rem, 10vw, 9rem);
+    padding-bottom: clamp(5.5rem, 10vw, 9rem);
+}
+
+.hero-split {
+    background:
+        radial-gradient(circle at 76% 14%, rgba(197, 161, 90, 0.14), transparent 34rem),
+        linear-gradient(160deg, #0B0B0B 0%, #090909 48%, #101010 100%);
+}
+
+.orb {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(8px);
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.orb-sage {
+    width: 24rem;
+    height: 24rem;
+    right: 8%;
+    top: 10%;
+    background: rgba(197, 161, 90, 0.14);
+}
+
+.orb-terracotta {
+    width: 18rem;
+    height: 18rem;
+    left: 4%;
+    bottom: 10%;
+    background: rgba(232, 214, 173, 0.1);
+}
+
+.contact-section {
+    background:
+        radial-gradient(circle at 8% 16%, rgba(197, 161, 90, 0.12), transparent 26rem),
+        linear-gradient(180deg, var(--background-color), var(--surface-color));
+}

@@ -1,0 +1,29 @@
+/* Explain: Theme tokens for the dark luxury tech aesthetic identity. */
+:root {
+    --primary-color: #C5A15A;
+    --primary-hover: #E8D6AD;
+    --secondary-color: #191919;
+    --accent-color: #C5A15A;
+    --logo-subtitle-color: #C5A15A;
+    --button-color: #C5A15A;
+    --button-text: #0A0A0A;
+    --background-color: #090909;
+    --surface-color: #191919;
+    --surface-elevated: #141414;
+    --footer-bg: #0C0C0C;
+    --text-color: #F4F0E6;
+    --text-muted: #9C9488;
+    --border-color: rgba(197, 161, 90, 0.14);
+    --glass-bg: rgba(25, 25, 25, 0.72);
+    --glass-border: rgba(197, 161, 90, 0.26);
+    --nav-bg: rgba(9, 9, 9, 0.78);
+    --field-bg: rgba(255, 255, 255, 0.04);
+    --gold-soft: rgba(197, 161, 90, 0.12);
+    --gold-strong: #C5A15A;
+    --champagne-soft: rgba(232, 214, 173, 0.16);
+    --shadow-soft: 0 24px 80px rgba(0, 0, 0, 0.55);
+    --shadow-button: 0 16px 40px rgba(197, 161, 90, 0.22);
+    --font-heading: 'Lora', serif;
+    --font-body: 'Montserrat', sans-serif;
+    --font-logo: 'Playfair Display', serif;
+}

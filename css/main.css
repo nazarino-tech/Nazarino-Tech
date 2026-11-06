@@ -1,0 +1,38 @@
+/* Explain: Base reset and typography defaults for the studio site, updated for dark luxury aesthetic. */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--background-color);
+    color: var(--text-color);
+    scroll-padding-top: 92px;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background:
+        radial-gradient(circle at 12% 14%, rgba(197, 161, 90, 0.10), transparent 30rem),
+        radial-gradient(circle at 88% 6%, rgba(232, 214, 173, 0.06), transparent 28rem),
+        var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-body);
+    text-rendering: optimizeLegibility;
+}
+
+button,
+a,
+select {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+::selection {
+    background: var(--accent-color);
+    color: #090909;
+}
