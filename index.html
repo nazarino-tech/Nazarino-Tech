@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nazarino | Make room for what's next</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #11110f;
+  color: #f5f0e5;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 8%;
+  align-items: center;
+  border-bottom: 1px solid #302a20;
+}
+
+.logo {
+  color: #d8b56a;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+nav a {
+  color: #d4cbb9;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.hero {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 12%;
+  background: radial-gradient(
+    circle at 85% 40%,
+    rgba(184, 143, 69, 0.2),
+    transparent 40%
+  );
+}
+
+.eyebrow {
+  color: #d8b56a;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: clamp(55px, 9vw, 110px);
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: -5px;
+}
+
+h1 span {
+  color: #d8b56a;
+}
+
+.hero p {
+  color: #aaa69b;
+  max-width: 470px;
+  line-height: 1.9;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 16px 25px;
+  background: #d8b56a;
+  color: #17140e;
+  text-decoration: none;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.button:hover {
+  background: #f0d99d;
+}
+
+.about {
+  padding: 100px 12%;
+  background: #191916;
+}
+
+.about h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.about h2 span {
+  color: #d8b56a;
+}
+
+.about p {
+  max-width: 650px;
+  color: #aaa69b;
+  line-height: 1.9;
+}
+
+footer {
+  padding: 30px 8%;
+  color: #817b70;
+  border-top: 1px solid #302a20;
+}
+
+@media(max-width:600px) {
+  header {
+    padding: 25px 6%;
+  }
+
+  nav a {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 80px 7%;
+  }
+
+  h1 {
+    letter-spacing: -3px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">NAZARINO.</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="mailto:hello@nazarino.com">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="eyebrow">
+      INDEPENDENT THINKING. BETTER TECHNOLOGY.
+    </div>
+
+    <h1>
+      Make room<br>
+      for <span>what's next.</span>
+    </h1>
+
+    <p>
+      Technology should do more than work.
+      It should inspire, connect and create
+      possibilities we haven't imagined yet.
+      Welcome to Nazarino.
+    </p>
+
+    <a href="#about" class="button">
+      Discover Nazarino ↗
+    </a>
+  </section>
+
+  <section class="about" id="about">
+    <h2>
+      More than technology.<br>
+      <span>A different perspective.</span>
+    </h2>
+
+    <p>
+      Nazarino is built on curiosity, creativity
+      and the belief that the best ideas come
+      from looking at things differently.
+      We're here to explore what's possible
+      and make technology feel more human.
+    </p>
+  </section>
+</main>
+
+<footer>
+  © 2026 Nazarino. Built for what's next.
+</footer>
+
+</body>
+</html>
